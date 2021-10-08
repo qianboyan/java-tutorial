@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-08-19T19:59:12.837749Z</date>
+  <millis>1629403152837</millis>
+  <nanos>749000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>basics.logging.LogConsumer</class>
+  <method>doSomething</method>
+  <thread>1</thread>
+  <message>Usual infos</message>
+</record>
+<record>
+  <date>2021-08-19T19:59:12.891933Z</date>
+  <millis>1629403152891</millis>
+  <nanos>933000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>SEVERE</level>
+  <class>basics.logging.LogConsumer</class>
+  <method>doSomething</method>
+  <thread>1</thread>
+  <message>something bad</message>
+</record>
+<record>
+  <date>2021-08-19T19:59:12.892624Z</date>
+  <millis>1629403152892</millis>
+  <nanos>624000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>basics.logging.LogConsumer</class>
+  <method>doSomething</method>
+  <thread>1</thread>
+  <message>this is warning</message>
+</record>
+<record>
+  <date>2021-08-19T19:59:12.893175Z</date>
+  <millis>1629403152893</millis>
+  <nanos>175000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>FINE</level>
+  <class>basics.logging.LogConsumer</class>
+  <method>doSomething</method>
+  <thread>1</thread>
+  <message>i am good</message>
+</record>
+</log>
