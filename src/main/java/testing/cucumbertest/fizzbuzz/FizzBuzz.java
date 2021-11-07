@@ -1,4 +1,4 @@
-package testing.cucumbertest;
+package testing.cucumbertest.fizzbuzz;
 
 public class FizzBuzz {
   public String play(int myNumber){

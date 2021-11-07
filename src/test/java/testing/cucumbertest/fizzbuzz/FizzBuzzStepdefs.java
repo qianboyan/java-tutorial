@@ -1,4 +1,4 @@
-package testing.cucumbertest;
+package testing.cucumbertest.fizzbuzz;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;

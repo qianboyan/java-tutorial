@@ -1,6 +1,8 @@
 package basics.oop;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class OOPDemo {
 
@@ -18,6 +20,9 @@ public class OOPDemo {
       animals.get(i).getThisName();
       System.out.println("***");
     }
+
+    Map<String, String> map = new HashMap();
+    System.out.println(map instanceof Map);
 
     InitializerDemo init1 = new InitializerDemo();
     InitializerDemo init2 = new InitializerDemo();

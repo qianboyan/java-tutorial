@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="0.133306">
+    <testcase classname="Calculator" name="Add two numbers -2 &amp; 3" time="0.131513">
+        <system-out>
+            <![CDATA[Given I have a calculator...................................................passed
+And I want to begin.........................................................passed
+Given I have a calculator...................................................passed
+When I add -2 and 3.........................................................passed
+Then the result should be 1.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Calculator" name="Add two numbers -2 &amp; 3" time="0.000479">
+        <system-out>
+            <![CDATA[Given I have a calculator...................................................passed
+And I want to begin.........................................................passed
+Given I have a calculator...................................................passed
+When I add -2 and 3.........................................................passed
+Then the result should be 1.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Calculator" name="Add two numbers 10 &amp; 15" time="0.000353">
+        <system-out>
+            <![CDATA[Given I have a calculator...................................................passed
+And I want to begin.........................................................passed
+Given I have a calculator...................................................passed
+When I add 10 and 15........................................................passed
+Then the result should be 25................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Calculator" name="Add two numbers 99 &amp; -99" time="0.000367">
+        <system-out>
+            <![CDATA[Given I have a calculator...................................................passed
+And I want to begin.........................................................passed
+Given I have a calculator...................................................passed
+When I add 99 and -99.......................................................passed
+Then the result should be 0.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Calculator" name="Add two numbers -1 &amp; -10" time="0.000594">
+        <system-out>
+            <![CDATA[Given I have a calculator...................................................passed
+And I want to begin.........................................................passed
+Given I have a calculator...................................................passed
+When I add -1 and -10.......................................................passed
+Then the result should be -11...............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
