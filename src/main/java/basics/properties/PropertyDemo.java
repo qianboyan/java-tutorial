@@ -39,6 +39,10 @@ public class PropertyDemo {
       e.printStackTrace();
     }
 
+    Properties systemProperties = System.getProperties();
+    System.out.println(systemProperties);
+    System.out.println(System.getProperty("java.specification.version"));
+
   }
 
 }

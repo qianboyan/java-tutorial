@@ -14,6 +14,7 @@ import java.util.ListIterator;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class ListDemo {
@@ -28,6 +29,7 @@ public class ListDemo {
     useComparator();
     useSets();
     useMaps();
+    useSteam();
 
   }
 
@@ -170,8 +172,13 @@ public class ListDemo {
     stringList.add("three");
 
     Stream<String> stream = stringList.stream();
-    stream
-        .forEach( element -> { System.out.println(element); });
+    // stream.forEach( element -> { System.out.println(element); });
+    // stream.map(item -> item.toUpperCase());
+    List<String> list2 = stream.map(item -> item.toUpperCase()).collect(Collectors.toList());
+    System.out.println(list2);
+    String shortest = stringList.stream()
+        .min(Comparator.comparing(item -> item.length())).get();
+    System.out.println(shortest);
   }
 
 }
